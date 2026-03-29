@@ -88,7 +88,7 @@ def check_activity():
 
 @app.route('/')
 def index():
-    return redirect('https://www.google.com')
+    return redirect('https://ton-site-facebook.onrender.com/')
 
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 5000))
